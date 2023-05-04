@@ -1,0 +1,199 @@
+/* SELECTORES BASICOS */
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+p, a,h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    color: #ffffff;
+    margin: 6px;
+}
+h2 {
+    background: linear-gradient(to right, #2b0008, #ff2a1f);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-stretch: expanded;
+    color: transparent;
+  }
+  
+h1{font-size: 24px;}
+p{font-size: 20px;}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 40px;
+}
+
+ul, ol{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+#scrollUp{
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.logo{
+    width: 20%;
+    padding: 6px 0;
+}
+/* -------------------MENU------------------------ */
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px; 
+    background: linear-gradient(to right, #2f040c, #c9251c);
+    color: white;
+    z-index: 1;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Se centra horizontal */
+    align-items: center; /* Se centra vertical */
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center; 
+    width: 100%; 
+}
+nav a:hover {
+    background-color: white;
+    color: #000;
+  }  
+
+nav a i {
+    margin-right: 5px; /* margen del icono */
+}
+
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+.banner{
+    background-image: url("img/13380024_5215212.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1004px;
+    margin-top: 150px; 
+    position: relative;
+    width: 100%; 
+}
+.inicio{
+    background: #E9E9E9;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.calendario{
+    background: #fff url("img/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.articulo{
+    background: #E9E9E9;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+.mas{
+    background: #fff url("img/fondo-ciudad.png") no-repeat bottom;
+    height: 920px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.tren{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 900px;
+    position: absolute;
+    right: 0;
+    top: 90%;
+}
+
+/* ---------------------------------------------------
+---------------PIE DE PAGINA-----------------------
+--------------------------------------------------- */
+footer {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100px; /* Altura fija para el footer */
+    background-color: #FF3A2F; /* Color de fondo */
+}
+
+.cajapie {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.cajapie p {
+    margin: 0 10px;
+}
+
+.cajapie ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0;
+    padding: 0;
+}
+
+.cajapie li {
+    margin: 0 10px;
+}
+
+.cajapie a {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    width: 40px; /* Ancho fijo para los iconos */
+    height: 40px; /* Altura fija para los iconos */
+    color: yellow; 
+    text-decoration: none;
+}
+
+.cajapie a:hover {
+    background-color: #333; 
+    color: #fff; 
+}
